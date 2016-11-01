@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER Jeremy Shimko <jeremy.shimko@gmail.com>
+MAINTAINER Yoggi Firmanda <yoggifirmanda@gmail.com>
 
 RUN groupadd -r node && useradd -m -g node node
 
@@ -39,3 +39,4 @@ WORKDIR $APP_BUNDLE_DIR/bundle
 # start the app
 ENTRYPOINT ["./entrypoint.sh"]
 CMD ["node", "main.js"]
+

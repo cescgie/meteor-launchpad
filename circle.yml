@@ -15,6 +15,7 @@ deployment:
     branch: master
     commands:
       - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
-      - docker push jshimko/meteor-launchpad:base
-      - docker push jshimko/meteor-launchpad:devbuild
-      - docker push jshimko/meteor-launchpad:latest
+      - docker push cescgie/meteor-launchpad:base
+      - docker push cescgie/meteor-launchpad:devbuild
+      - docker push cescgie/meteor-launchpad:latest
+

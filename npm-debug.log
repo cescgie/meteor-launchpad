@@ -1,0 +1,165 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'run-yaml' ]
+2 info using npm@3.10.8
+3 info using node@v7.0.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData run-yaml
+8 silly fetchNamedPackageData run-yaml
+9 silly mapToRegistry name run-yaml
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'run-yaml',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'run-yaml',
+12 silly mapToRegistry   name: 'run-yaml',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/run-yaml
+14 verbose request uri https://registry.npmjs.org/run-yaml
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 1:21:19 PM
+17 verbose request id 4c854b435050a90c
+18 http request GET https://registry.npmjs.org/run-yaml
+19 http 200 https://registry.npmjs.org/run-yaml
+20 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+20 verbose headers   etag: '"3DAZ1L15M8LBQLBSTO19BN9YN"',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '844',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Tue, 01 Nov 2016 12:21:18 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '86',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-fra1227-FRA',
+20 verbose headers   'x-cache': 'HIT',
+20 verbose headers   'x-cache-hits': '1',
+20 verbose headers   'x-timer': 'S1478002878.336273,VS0,VE0',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 200,
+21 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+21 silly get     etag: '"3DAZ1L15M8LBQLBSTO19BN9YN"',
+21 silly get     'content-type': 'application/json',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '844',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Tue, 01 Nov 2016 12:21:18 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '86',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-fra1227-FRA',
+21 silly get     'x-cache': 'HIT',
+21 silly get     'x-cache-hits': '1',
+21 silly get     'x-timer': 'S1478002878.336273,VS0,VE0',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose get saving run-yaml to /root/.npm/registry.npmjs.org/run-yaml/.cache.json
+23 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule run-yaml@0.0.1 checking installable status
+37 silly cache add args [ 'run-yaml', null ]
+38 verbose cache add spec run-yaml
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'run-yaml',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'run-yaml',
+39 silly cache add   name: 'run-yaml',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed run-yaml@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for run-yaml
+42 info addNameTag [ 'run-yaml', 'latest' ]
+43 silly mapToRegistry name run-yaml
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'run-yaml',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'run-yaml',
+46 silly mapToRegistry   name: 'run-yaml',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/run-yaml
+48 verbose addNameTag registry:https://registry.npmjs.org/run-yaml not in flight; fetching
+49 verbose get https://registry.npmjs.org/run-yaml not expired, no request
+50 silly addNameTag next cb for run-yaml with tag latest
+51 silly addNamed run-yaml@0.0.1
+52 verbose addNamed "0.0.1" is a plain semver version for run-yaml
+53 silly mapToRegistry name run-yaml
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'run-yaml',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'run-yaml',
+56 silly mapToRegistry   name: 'run-yaml',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/run-yaml
+58 verbose addRemoteTarball https://registry.npmjs.org/run-yaml/-/run-yaml-0.0.1.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/run-yaml/-/run-yaml-0.0.1.tgz',
+59 verbose addRemoteTarball   '80b524c246319d25ba4a5f3b69776ae4c9324070' ]
+60 info retry fetch attempt 1 at 1:21:19 PM
+61 info attempt registry request try #1 at 1:21:19 PM
+62 http fetch GET https://registry.npmjs.org/run-yaml/-/run-yaml-0.0.1.tgz
+63 http fetch 404 https://registry.npmjs.org/run-yaml/-/run-yaml-0.0.1.tgz
+64 error fetch failed https://registry.npmjs.org/run-yaml/-/run-yaml-0.0.1.tgz
+65 warn retry will retry, error on last attempt: Error: fetch failed with status code 404
+66 info retry fetch attempt 2 at 1:21:30 PM
+67 info attempt registry request try #1 at 1:21:30 PM
+68 http fetch GET https://registry.npmjs.org/run-yaml/-/run-yaml-0.0.1.tgz
+69 http fetch 404 https://registry.npmjs.org/run-yaml/-/run-yaml-0.0.1.tgz
+70 error fetch failed https://registry.npmjs.org/run-yaml/-/run-yaml-0.0.1.tgz
+71 warn retry will retry, error on last attempt: Error: fetch failed with status code 404
+72 info retry fetch attempt 3 at 1:22:30 PM
+73 info attempt registry request try #1 at 1:22:30 PM
+74 http fetch GET https://registry.npmjs.org/run-yaml/-/run-yaml-0.0.1.tgz
+75 http fetch 404 https://registry.npmjs.org/run-yaml/-/run-yaml-0.0.1.tgz
+76 error fetch failed https://registry.npmjs.org/run-yaml/-/run-yaml-0.0.1.tgz
+77 silly rollbackFailedOptional Starting
+78 silly rollbackFailedOptional Finishing
+79 silly runTopLevelLifecycles Finishing
+80 silly install printInstalled
+81 verbose stack Error: fetch failed with status code 404
+81 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/fetch.js:51:14)
+81 verbose stack     at emitOne (events.js:96:13)
+81 verbose stack     at Request.emit (events.js:188:7)
+81 verbose stack     at Request.onRequestResponse (/usr/local/lib/node_modules/npm/node_modules/request/request.js:954:10)
+81 verbose stack     at emitOne (events.js:96:13)
+81 verbose stack     at ClientRequest.emit (events.js:188:7)
+81 verbose stack     at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:473:21)
+81 verbose stack     at HTTPParser.parserOnHeadersComplete (_http_common.js:99:23)
+81 verbose stack     at TLSSocket.socketOnData (_http_client.js:362:20)
+81 verbose stack     at emitOne (events.js:96:13)
+82 verbose cwd /home/yoggi/extra/meteor-launchpad
+83 error Linux 3.16.0-4-amd64
+84 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "run-yaml"
+85 error node v7.0.0
+86 error npm  v3.10.8
+87 error fetch failed with status code 404
+88 error If you need help, you may report this error at:
+88 error     <https://github.com/npm/npm/issues>
+89 verbose exit [ 1, true ]

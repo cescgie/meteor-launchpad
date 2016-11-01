@@ -1,5 +1,5 @@
-FROM jshimko/meteor-launchpad:base
-MAINTAINER Jeremy Shimko <jeremy.shimko@gmail.com>
+FROM cescgie/meteor-launchpad:base
+MAINTAINER Yoggi Firmanda <yoggifirmanda@gmail.com>
 
 # copy the app to the container
 ONBUILD COPY . $APP_SOURCE_DIR
@@ -13,3 +13,4 @@ ONBUILD RUN cd $APP_SOURCE_DIR && \
             bash $BUILD_SCRIPTS_DIR/install-meteor.sh && \
             bash $BUILD_SCRIPTS_DIR/build-meteor.sh && \
             bash $BUILD_SCRIPTS_DIR/post-build-cleanup.sh
+
